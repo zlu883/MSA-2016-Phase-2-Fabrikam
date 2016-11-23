@@ -2,18 +2,25 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 using Xamarin.Forms;
 
 namespace Fabrikam
 {
+    public interface IAuthenticate
+    {
+        Task<bool> Authenticate();
+    }
+
     public partial class App : Application
     {
+
         public App()
         {
             InitializeComponent();
 
-            MainPage = new Fabrikam.MainPage();
+            MainPage = new MainPage();
         }
 
         protected override void OnStart()
