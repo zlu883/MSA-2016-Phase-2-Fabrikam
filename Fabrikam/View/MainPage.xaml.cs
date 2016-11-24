@@ -17,7 +17,10 @@ namespace Fabrikam
             this.Title = "Fabrikam";
             this.Children.Add(new SummaryPage());
             this.Children.Add(new MenuPage());
-            this.Children.Add(new BookingsPage());
+            NavigationPage np = new NavigationPage(new BookingsPage());
+            np.Title = "Bookings";
+            NavigationPage.SetHasNavigationBar(np, false);
+            this.Children.Add(np);
         }
     }
 }

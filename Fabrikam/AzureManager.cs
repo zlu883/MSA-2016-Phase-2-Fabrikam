@@ -13,11 +13,11 @@ namespace Fabrikam
         private static AzureManager instance;
         private MobileServiceClient client;
         private IMobileServiceTable<Menu> MenuItemTable;
+        private IMobileServiceTable<Bookings> BookingsTable;
 
         private AzureManager()
         {
             this.client = new MobileServiceClient("https://fabrikamrecords.azurewebsites.net");
-            this.MenuItemTable = this.client.GetTable<Menu>();
         }
 
         public MobileServiceClient AzureClient
@@ -40,7 +40,26 @@ namespace Fabrikam
 
         public async Task<List<Menu>> GetMenuItems()
         {
+            this.MenuItemTable = this.client.GetTable<Menu>();
             return await this.MenuItemTable.ToListAsync();
+        }
+
+        public async Task PostBookings(Bookings b)
+        {
+            this.BookingsTable = this.client.GetTable<Bookings>();
+            await this.BookingsTable.InsertAsync(b);
+        }
+
+        public async Task<List<Bookings>> GetBookings()
+        {
+            this.BookingsTable = this.client.GetTable<Bookings>();
+            return await this.BookingsTable.ToListAsync();
+        }
+
+        public async Task DeleteBookings(Bookings b)
+        {
+            this.BookingsTable = this.client.GetTable<Bookings>();
+            await this.BookingsTable.DeleteAsync(b);
         }
     }
 }

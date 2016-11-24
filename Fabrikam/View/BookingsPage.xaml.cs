@@ -13,7 +13,22 @@ namespace Fabrikam.View
         public BookingsPage()
         {
             InitializeComponent();
-            this.Title = "Bookings";
+            Title = "Booking Options";
+        }
+
+        async void OnMakeBookingButtonClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new MakeBookingPage());
+        }
+
+        async void OnCancelBookingButtonClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new CancelBookingPage());
+        }
+
+        async void OnCheckBookingButtonClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ViewBookingPage());
         }
     }
 }

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Fabrikam.View.MakeBookingPage">
+  <StackLayout Padding="20">
+    <Label Text="Enter your name:"></Label>
+    <Entry x:Name="NameEntry"></Entry>
+    <Label Text="Enter your contact number:"></Label>
+    <Entry x:Name="PhoneEntry"></Entry>
+    <Label Text="Number of persons:"></Label>
+    <Picker x:Name="PersonsPicker">
+      <Picker.Items>
+        <x:String>1</x:String>
+        <x:String>2</x:String>
+        <x:String>3</x:String>
+        <x:String>4</x:String>
+        <x:String>5</x:String>
+        <x:String>6</x:String>
+        <x:String>7</x:String>
+        <x:String>8+</x:String>
+      </Picker.Items>
+    </Picker>
+    <DatePicker x:Name="DatePicker"></DatePicker>
+    <TimePicker x:Name="TimePicker"></TimePicker>
+    <Button Text="Submit your booking" VerticalOptions="Center" HorizontalOptions="Center" Clicked="OnSubmitBookingButtonClicked"></Button>
+  </StackLayout>
+</ContentPage>

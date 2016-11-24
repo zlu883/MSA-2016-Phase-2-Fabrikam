@@ -36,6 +36,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="AzureManager.cs" />
+    <Compile Include="Bookings.cs" />
     <Compile Include="Distance.cs" />
     <Compile Include="Menu.cs" />
     <Compile Include="ViewModel\Menu.cs" />
@@ -44,6 +45,12 @@
     </Compile>
     <Compile Include="View\BookingsPage.xaml.cs">
       <DependentUpon>BookingsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\CancelBookingPage.xaml.cs">
+      <DependentUpon>CancelBookingPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\MakeBookingPage.xaml.cs">
+      <DependentUpon>MakeBookingPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\MenuPage.xaml.cs">
       <DependentUpon>MenuPage.xaml</DependentUpon>
@@ -54,6 +61,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="View\SummaryPage.xaml.cs">
       <DependentUpon>SummaryPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ViewBookingPage.xaml.cs">
+      <DependentUpon>ViewBookingPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -127,6 +137,24 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="View\BookingsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="View\ViewBookingPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="View\CancelBookingPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="View\MakeBookingPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

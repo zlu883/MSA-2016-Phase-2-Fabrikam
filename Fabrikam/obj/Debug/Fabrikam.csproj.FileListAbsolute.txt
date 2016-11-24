@@ -34,5 +34,8 @@ E:\Fabrikam\Fabrikam\Fabrikam\obj\Debug\Fabrikam.csprojResolveAssemblyReference.
 E:\Fabrikam\Fabrikam\Fabrikam\obj\Debug\Fabrikam.View.MenuPage.xaml.g.cs
 E:\Fabrikam\Fabrikam\Fabrikam\obj\Debug\Fabrikam.View.SummaryPage.xaml.g.cs
 E:\Fabrikam\Fabrikam\Fabrikam\obj\Debug\Fabrikam.View.BookingsPage.xaml.g.cs
+E:\Fabrikam\Fabrikam\Fabrikam\obj\Debug\Fabrikam.View.ViewBookingPage.xaml.g.cs
+E:\Fabrikam\Fabrikam\Fabrikam\obj\Debug\Fabrikam.View.CancelBookingPage.xaml.g.cs
+E:\Fabrikam\Fabrikam\Fabrikam\obj\Debug\Fabrikam.View.MakeBookingPage.xaml.g.cs
 E:\Fabrikam\Fabrikam\Fabrikam\obj\Debug\Fabrikam.dll.mdb
 E:\Fabrikam\Fabrikam\Fabrikam\bin\Debug\Fabrikam.dll.mdb
