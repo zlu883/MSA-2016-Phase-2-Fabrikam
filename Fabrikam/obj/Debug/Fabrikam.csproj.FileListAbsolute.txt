@@ -28,11 +28,11 @@ E:\Fabrikam\Fabrikam\Fabrikam\bin\Debug\Xamarin.Forms.Xaml.xml
 E:\Fabrikam\Fabrikam\Fabrikam\obj\Debug\Fabrikam.csproj.App.config
 E:\Fabrikam\Fabrikam\Fabrikam\obj\Debug\Fabrikam.App.xaml.g.cs
 E:\Fabrikam\Fabrikam\Fabrikam\obj\Debug\Fabrikam.View.MainPage.xaml.g.cs
-E:\Fabrikam\Fabrikam\Fabrikam\obj\Debug\Fabrikam.View.FoodHistoryPage.xaml.g.cs
-E:\Fabrikam\Fabrikam\Fabrikam\obj\Debug\Fabrikam.View.RewardsPage.xaml.g.cs
-E:\Fabrikam\Fabrikam\Fabrikam\obj\Debug\Fabrikam.View.AchievementsPage.xaml.g.cs
 E:\Fabrikam\Fabrikam\Fabrikam\obj\Debug\Fabrikam.dll
 E:\Fabrikam\Fabrikam\Fabrikam\obj\Debug\Fabrikam.pdb
 E:\Fabrikam\Fabrikam\Fabrikam\obj\Debug\Fabrikam.csprojResolveAssemblyReference.cache
+E:\Fabrikam\Fabrikam\Fabrikam\obj\Debug\Fabrikam.View.MenuPage.xaml.g.cs
+E:\Fabrikam\Fabrikam\Fabrikam\obj\Debug\Fabrikam.View.SummaryPage.xaml.g.cs
+E:\Fabrikam\Fabrikam\Fabrikam\obj\Debug\Fabrikam.View.BookingsPage.xaml.g.cs
 E:\Fabrikam\Fabrikam\Fabrikam\obj\Debug\Fabrikam.dll.mdb
 E:\Fabrikam\Fabrikam\Fabrikam\bin\Debug\Fabrikam.dll.mdb

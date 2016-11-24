@@ -3,15 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Plugin.Geolocator;
 
 using Xamarin.Forms;
 
 namespace Fabrikam
 {
-    public interface IAuthenticate
-    {
-        Task<bool> Authenticate();
-    }
 
     public partial class App : Application
     {
@@ -21,6 +18,15 @@ namespace Fabrikam
             InitializeComponent();
 
             MainPage = new MainPage();
+
+            getGeolocation();
+        }
+
+        async public void getGeolocation()
+        {
+            var locator = CrossGeolocator.Current;
+            var position = await locator.GetPositionAsync(timeoutMilliseconds: 10000);
+            var t = position;
         }
 
         protected override void OnStart()

@@ -33,6 +33,9 @@ namespace Fabrikam
 
         [JsonProperty(PropertyName = "Price")]
         public string Price { get; set; }
+
+        [JsonProperty(PropertyName = "Description")]
+        public string Description { get; set; }
     }
 
 }

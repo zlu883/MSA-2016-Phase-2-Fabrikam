@@ -107,5 +107,6 @@ E:\Fabrikam\Fabrikam\Fabrikam.Droid\obj\Debug\android\assets\System.Xml.Linq.dll
 E:\Fabrikam\Fabrikam\Fabrikam.Droid\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 E:\Fabrikam\Fabrikam\Fabrikam.Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 E:\Fabrikam\Fabrikam\Fabrikam.Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+E:\Fabrikam\Fabrikam\Fabrikam.Droid\obj\Debug\res\drawable\restaurant.jpg
 E:\Fabrikam\Fabrikam\Fabrikam.Droid\obj\Debug\Fabrikam.Droid.dll.mdb
 E:\Fabrikam\Fabrikam\Fabrikam.Droid\bin\Debug\Fabrikam.Droid.dll.mdb

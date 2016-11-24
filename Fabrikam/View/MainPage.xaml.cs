@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Fabrikam.View;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,9 +15,9 @@ namespace Fabrikam
         {
             InitializeComponent();
             this.Title = "Fabrikam";
-            this.Children.Add(new FoodHistoryPage());
-            this.Children.Add(new AchievementsPage());
-            this.Children.Add(new RewardsPage());     
+            this.Children.Add(new SummaryPage());
+            this.Children.Add(new MenuPage());
+            this.Children.Add(new BookingsPage());
         }
     }
 }

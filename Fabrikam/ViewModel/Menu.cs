@@ -40,7 +40,13 @@ namespace Fabrikam.ViewModel
 
             foreach (Menu i in menuItems)
             {
-                entrees.Add(i);
+                i.Name = i.Name + " / " + i.Price;
+                if (i.Type.Equals("Entree"))
+                    entrees.Add(i);
+                else if (i.Type.Equals("Main"))
+                    mains.Add(i);
+                else
+                    desserts.Add(i);
             }
         } 
     }

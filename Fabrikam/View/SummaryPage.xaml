@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Fabrikam.View.SummaryPage">
+  <StackLayout>
+    <Image Source="restaurant.jpg"></Image>
+    <Label Text="Opening hours:" HorizontalTextAlignment="Center" FontFamily="serif" FontSize="20" FontAttributes="Bold"></Label>
+    <Label Text="Mon to Fri: 5:00 - 10:00 pm" HorizontalTextAlignment="Center" FontFamily="serif" FontSize="20"></Label>
+    <Label Text="Sat: 5:00 - 10:30 pm" HorizontalTextAlignment="Center" FontFamily="serif" FontSize="20"></Label>
+    <Label Text="Sun: 5:30 - 10:00 pm" HorizontalTextAlignment="Center" FontFamily="serif" FontSize="20"></Label>
+    <Label Text="22 Viaduct Harbour Avenue, Auckland, New Zealand" HorizontalTextAlignment="Center" FontFamily="serif" FontSize="20" FontAttributes="Bold"></Label>
+    <Label Text="Phone: 09-3625800" HorizontalTextAlignment="Center" FontFamily="serif" FontSize="20" FontAttributes="Bold"></Label>
+    <Label Text="" HorizontalTextAlignment="Center" FontFamily="serif" FontSize="20" FontAttributes="Bold"></Label>
+    <Label x:Name="DistanceLabel" HorizontalTextAlignment="Center" FontFamily="serif" FontSize="18" FontAttributes="Italic"></Label>
+  </StackLayout>
+</ContentPage>

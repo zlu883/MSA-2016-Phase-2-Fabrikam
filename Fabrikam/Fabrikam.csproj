@@ -36,23 +36,24 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="AzureManager.cs" />
+    <Compile Include="Distance.cs" />
     <Compile Include="Menu.cs" />
     <Compile Include="ViewModel\Menu.cs" />
-    <Compile Include="View\AchievementsPage.xaml.cs">
-      <DependentUpon>AchievementsPage.xaml</DependentUpon>
-    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\FoodHistoryPage.xaml.cs">
-      <DependentUpon>FoodHistoryPage.xaml</DependentUpon>
+    <Compile Include="View\BookingsPage.xaml.cs">
+      <DependentUpon>BookingsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\MenuPage.xaml.cs">
+      <DependentUpon>MenuPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="View\RewardsPage.xaml.cs">
-      <DependentUpon>RewardsPage.xaml</DependentUpon>
+    <Compile Include="View\SummaryPage.xaml.cs">
+      <DependentUpon>SummaryPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -113,19 +114,19 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="View\FoodHistoryPage.xaml">
+    <EmbeddedResource Include="View\MenuPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="View\RewardsPage.xaml">
+    <EmbeddedResource Include="View\SummaryPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="View\AchievementsPage.xaml">
+    <EmbeddedResource Include="View\BookingsPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
